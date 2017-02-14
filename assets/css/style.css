@@ -1,0 +1,29 @@
+body {
+	min-width: 960px;
+	background-image: url("../images/creampaper.png");
+}	
+
+nav {
+	background-color: #ffffff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.homenav {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	font-weight: : bold;
+}
+
+.navlink {
+	color: red;
+	border-color: #777777;
+	color: #777777;
+}
