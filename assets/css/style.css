@@ -1,10 +1,21 @@
 body {
 	min-width: 960px;
 	background-image: url("../images/creampaper.png");
+	/*margin: 0px;*/
 }	
+
+h1 {
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
 
 nav {
 	background-color: #ffffff;
+	height: 70px;
+	border-bottom: red;
+	/*border-width: 5px;*/
+	/*vertical-align: middle;*/
 }
 
 a:link {
@@ -13,17 +24,43 @@ a:link {
 
 a:hover {
     color: hotpink;
+    /*border: 10px;*/
+    /*border-color: red;*/
 }
 
-.homenav {
+
+#nameNav:hover {
+    color: hotpink;
+}
+
+#profilePic {
+    width: 200px;
+    float: left;
+}
+
+/*This is just jused for the name title in the nav bar*/
+#nameNav {
+	float: left;
 	background-color: #4aaaa5;
+	padding: 30px;
+	border-right: 300px
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #ffffff;
 	font-weight: : bold;
+	font-size: 30px;
+	color: #ffffff;
+	text-orientation: center;
+
+
 }
 
-.navlink {
-	color: red;
-	border-color: #777777;
+/*This is for elements of the nav bar apart from the name*/
+.navLink {
+	float: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
 	color: #777777;
+	/*justify-content: right;*/
+	padding: 30px 10px;
+	/*border-color: red;*/
+
 }
