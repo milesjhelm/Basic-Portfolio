@@ -1,6 +1,6 @@
 body {
 	min-width: 960px;
-	background-image: url("../images/creampaper.png");
+	background-image: url("../images/candyhole.png");
 	/*margin: 0px;*/
 }	
 
@@ -63,7 +63,7 @@ footer {
  	bottom: 0;
  	left: 0;
  	height: 60px;
- 	background-color: white;
+ 	/*background-color: white;*/
  	width: 100%;
 	float: left;
 	clear: both;
@@ -74,8 +74,8 @@ footer {
 	/*border-top: 4px;*/
 	/*border-color: solid: #4aaaa5;*/
 	/*padding-bottom: : 30px;*/
-	border-style: solid;
-    border-top: thick double #4aaaa5;
+	border-top: 4px solid #4aaaa5;
+    /*border-top: thick double #4aaaa5;*/
 
 }
 
@@ -97,7 +97,7 @@ footer {
 	left: 700px;
 	height: 110px;
 	width: 180px;
-	padding: 20px;
+	padding: 23px;
 	/*border: 5px;*/
 	margin: 20px;
 	background-color: #ffffff;
@@ -154,11 +154,37 @@ footer {
     padding: 20px;
 }
 
+#portfolioRight {
+	width: 234px;
+    float: right;
+    clear: right;
+    padding: 20px;
+}
+
+#portfolioLeft {
+	width: 234px;
+    float: left;
+    clear: left;
+    padding: 20px;
+}
+
 #aboutMe {
 	position: absolute;
 	left: 50px;
 	top: 105px;
 	height: 400px;
+	width: 550px;
+	padding: 20px;
+	/*border: 5px;*/
+	margin: 20px;
+	background-color: #ffffff;
+}
+
+#portfolio {
+	position: absolute;
+	left: 50px;
+	top: 105px;
+	height: 684px;
 	width: 550px;
 	padding: 20px;
 	/*border: 5px;*/
